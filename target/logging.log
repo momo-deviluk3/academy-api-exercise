@@ -1,0 +1,274 @@
+28/09/20 19:33:33 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:33:34 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {id=2}, {Content-Type=application/json}
+28/09/20 19:33:37 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Data@1bfe3203,{Date=[Mon, 28 Sep 2020 22:33:37 GMT], Content-Type=[application/json; charset=utf-8], Transfer-Encoding=[chunked], Connection=[keep-alive], Set-Cookie=[__cfduid=dce5c05b43fb6c508231e7a98d38ea86d1601332417; expires=Wed, 28-Oct-20 22:33:37 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"], Via=[1.1 vegur], Cache-Control=[max-age=14400], CF-Cache-Status=[MISS], cf-request-id=[057872abe10000d51501bf8200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Vary=[Accept-Encoding], Server=[cloudflare], CF-RAY=[5da0ed596ec6d515-MIA]}>
+28/09/20 19:33:37 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:33:37 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:33:38 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:33:38 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@54f66455,{Date=[Mon, 28 Sep 2020 22:33:38 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-g7Se3tdBClXRJpPTAEZ4PczyTmg"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057872ae850000d5150181a200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0ed5daf32d515-MIA]}>
+28/09/20 19:33:38 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:33:38 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:33:38 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:33:39 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@4c03a37,{Date=[Mon, 28 Sep 2020 22:33:38 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-hZm7cAxiwXnvB0stTbzS0zY2mAc"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057872b0760000d51501832200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0ed60be09d515-MIA]}>
+28/09/20 19:33:39 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:33:39 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:33:39 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:33:39 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@49a71302,{Date=[Mon, 28 Sep 2020 22:33:39 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-4QqVAxWTiS/YqbihQgunr33Np78"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057872b26c0000d51501854200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0ed63ed57d515-MIA]}>
+28/09/20 19:33:39 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:33:39 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+28/09/20 19:33:39 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+28/09/20 19:33:40 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@630d1b2f,{Date=[Mon, 28 Sep 2020 22:33:40 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3AatvrctRiL2W3Oes2pj6h_iaOFe3EBH6b.ae7fUf0a8e399oNaQjWAQ7mcztGI2Gcy8PuaWLFZHw0; Path=/; HttpOnly]}>
+28/09/20 19:33:40 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+28/09/20 19:33:40 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+28/09/20 19:33:40 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+28/09/20 19:36:35 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:36:36 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {id=2}, {Content-Type=application/json}
+28/09/20 19:36:39 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Data@70e3f36f,{Date=[Mon, 28 Sep 2020 22:36:39 GMT], Content-Type=[application/json; charset=utf-8], Transfer-Encoding=[chunked], Connection=[keep-alive], Set-Cookie=[__cfduid=d85c5d0d14e818cd170e96a1aab57723a1601332599; expires=Wed, 28-Oct-20 22:36:39 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"], Via=[1.1 vegur], Cache-Control=[max-age=14400], CF-Cache-Status=[HIT], Age=[182], cf-request-id=[057875729400001175a8b53200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Vary=[Accept-Encoding], Server=[cloudflare], CF-RAY=[5da0f1ca8cee1175-MIA]}>
+28/09/20 19:36:39 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:36:39 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:36:39 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:36:40 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@4c03a37,{Date=[Mon, 28 Sep 2020 22:36:40 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-xprtky+0itNosgKlm777ytRhH7c"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057875741500001175a8b77200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f1cceb511175-MIA]}>
+28/09/20 19:36:40 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:36:40 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:36:40 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:36:40 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@49a71302,{Date=[Mon, 28 Sep 2020 22:36:40 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-U+kIa5wPf+iIDwW8s4iAH9eIrxU"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057875767200001175a8bed200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f1d0be041175-MIA]}>
+28/09/20 19:36:40 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:36:40 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:36:40 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:36:41 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@59429fac,{Date=[Mon, 28 Sep 2020 22:36:41 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-UVF8YPyljX3O8cJhm/GoJ/UCjx8"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057875787800001175a884b200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f1d3ff781175-MIA]}>
+28/09/20 19:36:41 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:36:41 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+28/09/20 19:36:41 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+28/09/20 19:36:42 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@7a2e0858,{Date=[Mon, 28 Sep 2020 22:36:42 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3ACLlpkLSSHe49lU6r1ksAoVdoqYPNIxZJ.MWggwmyLnpT63rE5uXcm3pFWDfKG5vRYgyIiJqVFgng; Path=/; HttpOnly]}>
+28/09/20 19:36:42 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+28/09/20 19:36:42 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+28/09/20 19:36:42 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+28/09/20 19:38:05 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:38:05 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {id=2}, {Content-Type=application/json}
+28/09/20 19:38:08 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Data@1bfe3203,{Date=[Mon, 28 Sep 2020 22:38:08 GMT], Content-Type=[application/json; charset=utf-8], Transfer-Encoding=[chunked], Connection=[keep-alive], Set-Cookie=[__cfduid=d5089428cf3f8d5eba41a40d6e2f5a6991601332688; expires=Wed, 28-Oct-20 22:38:08 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"], Via=[1.1 vegur], Cache-Control=[max-age=14400], CF-Cache-Status=[HIT], Age=[271], cf-request-id=[057876ceb40000c89b6dba2200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Vary=[Accept-Encoding], Server=[cloudflare], CF-RAY=[5da0f3f78fa0c89b-MIA]}>
+28/09/20 19:38:08 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:38:08 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:38:08 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:38:09 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@54f66455,{Date=[Mon, 28 Sep 2020 22:38:09 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-vEqCLUibahPKDoEm0qsBW0BTkGA"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057876d0410000c89b6dbc3200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f3fa0ce3c89b-MIA]}>
+28/09/20 19:38:09 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:38:09 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:38:09 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:38:09 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@4c03a37,{Date=[Mon, 28 Sep 2020 22:38:09 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-Tt4eFgdcokRD2kjE7zV1y+rhLVg"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057876d2250000c89b6dbec200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f3fd0ba8c89b-MIA]}>
+28/09/20 19:38:09 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:38:09 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:38:09 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:38:10 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@49a71302,{Date=[Mon, 28 Sep 2020 22:38:10 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-ZP+NYGFEcYjDPRm5uBCDtmhmvWM"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057876d4070000c89b6d826200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f40009bec89b-MIA]}>
+28/09/20 19:38:10 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:38:10 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+28/09/20 19:38:10 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+28/09/20 19:38:11 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@630d1b2f,{Date=[Mon, 28 Sep 2020 22:38:11 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3As6XzuUll4hgyLgcNHDjxKxZCYfujg7RH.1Rv2UaQKNpbs96EanznxWOxuXpPB8vQFPlkg9L1itvc; Path=/; HttpOnly]}>
+28/09/20 19:38:11 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+28/09/20 19:38:11 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+28/09/20 19:38:11 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+28/09/20 19:39:18 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:39:18 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {id=2}, {Content-Type=application/json}
+28/09/20 19:39:22 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Data@2b214b94,{Date=[Mon, 28 Sep 2020 22:39:21 GMT], Content-Type=[application/json; charset=utf-8], Transfer-Encoding=[chunked], Connection=[keep-alive], Set-Cookie=[__cfduid=d5ef6882554527a4d3d0593fc6dd0f8101601332761; expires=Wed, 28-Oct-20 22:39:21 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"], Via=[1.1 vegur], Cache-Control=[max-age=14400], CF-Cache-Status=[HIT], Age=[344], cf-request-id=[057877ecda0000d5253c9f9200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Vary=[Accept-Encoding], Server=[cloudflare], CF-RAY=[5da0f5c15cd6d525-MIA]}>
+28/09/20 19:39:22 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:39:22 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:39:22 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:39:22 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@65ae095c,{Date=[Mon, 28 Sep 2020 22:39:22 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-dUGNEle21gR59NHjVYQlDrlXPYw"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057877ee5b0000d5253ca22200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f5c3cc6ed525-MIA]}>
+28/09/20 19:39:22 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:39:22 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:39:22 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:39:23 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@2e140e59,{Date=[Mon, 28 Sep 2020 22:39:22 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-h3b8wk+lDXKlm7WHl99+fNNYIoM"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057877f04c0000d5253ca58200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f5c6ed5cd525-MIA]}>
+28/09/20 19:39:23 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:39:23 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:39:23 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:39:23 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@5cd61783,{Date=[Mon, 28 Sep 2020 22:39:23 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-u2/6qpTh/HqJrzLxwlaGW5BHjQU"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057877f22a0000d5253ca7a200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f5c9dd4ad525-MIA]}>
+28/09/20 19:39:23 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:39:23 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+28/09/20 19:39:23 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+28/09/20 19:39:24 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@746b18fd,{Date=[Mon, 28 Sep 2020 22:39:24 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3APBf7sMQ2tUdbUGumGNtUqFYLn15RS_Qr.8AyiYV4rc5I3aKcPWNXN%2FHsJ7ieX%2FZjjgoLeAJRJ6Gs; Path=/; HttpOnly]}>
+28/09/20 19:39:24 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+28/09/20 19:39:46 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:39:46 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {id=2}, {Content-Type=application/json}
+28/09/20 19:39:49 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Data@2b214b94,{Date=[Mon, 28 Sep 2020 22:39:49 GMT], Content-Type=[application/json; charset=utf-8], Transfer-Encoding=[chunked], Connection=[keep-alive], Set-Cookie=[__cfduid=de3f8eb146f306e14f92f2dd54d1329471601332789; expires=Wed, 28-Oct-20 22:39:49 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"], Via=[1.1 vegur], Cache-Control=[max-age=14400], CF-Cache-Status=[HIT], Age=[372], cf-request-id=[0578785a0b0000d52168853200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Vary=[Accept-Encoding], Server=[cloudflare], CF-RAY=[5da0f6701c12d521-MIA]}>
+28/09/20 19:39:49 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:39:49 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:39:49 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:39:50 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@65ae095c,{Date=[Mon, 28 Sep 2020 22:39:50 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-Bo54ihNc3xUiipWFUnkM5TlXBdM"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0578785b900000d52168868200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f6728923d521-MIA]}>
+28/09/20 19:39:50 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:39:50 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:39:50 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:39:50 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@2e140e59,{Date=[Mon, 28 Sep 2020 22:39:50 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-N43wJnZPKgxS9i0QQXsAFVXUGAM"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0578785d540000d52168888200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f6755f48d521-MIA]}>
+28/09/20 19:39:50 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:39:50 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 19:39:50 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 19:39:51 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@5cd61783,{Date=[Mon, 28 Sep 2020 22:39:51 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-FZU4fI2hUfmVqLQjSyRude6BHAc"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0578785e960000d521688a7200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5da0f6775be1d521-MIA]}>
+28/09/20 19:39:51 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 19:39:51 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+28/09/20 19:39:51 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+28/09/20 19:39:52 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@746b18fd,{Date=[Mon, 28 Sep 2020 22:39:52 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3AzZi6Ho_X5UAe41E60HJ-D8ssr9OeF9Q7.I%2BIASsE06IniDwR%2BScMvAFHF2%2BCN1zEPkwS3%2ByP%2FYj0; Path=/; HttpOnly]}>
+28/09/20 19:39:52 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+30/09/20 18:59:42 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 18:59:43 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {id=2}, {Content-Type=application/json}
+30/09/20 18:59:47 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Data@70e3f36f,{Date=[Wed, 30 Sep 2020 21:59:46 GMT], Content-Type=[application/json; charset=utf-8], Transfer-Encoding=[chunked], Connection=[keep-alive], Set-Cookie=[__cfduid=d574b22f676594c1163669e2fc24ae82a1601503186; expires=Fri, 30-Oct-20 21:59:46 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"], Via=[1.1 vegur], Cache-Control=[max-age=14400], CF-Cache-Status=[REVALIDATED], cf-request-id=[0582a066ac0000f32dd6a1e200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503187"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Vary=[Accept-Encoding], Server=[cloudflare], CF-RAY=[5db1368449d5f32d-ATL]}>
+30/09/20 18:59:47 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 18:59:47 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 18:59:47 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+30/09/20 18:59:47 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@4c03a37,{Date=[Wed, 30 Sep 2020 21:59:47 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[79], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"4f-+j6C3bj3Rf8nVvsiSsalY+smZXI"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0582a0692c0000f32dd6a3b200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503187"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5db1368848bff32d-ATL]}>
+30/09/20 18:59:47 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 18:59:47 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 18:59:47 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+30/09/20 18:59:48 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@49a71302,{Date=[Wed, 30 Sep 2020 21:59:47 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-iClu4fCFGviTS16XsNg2hnuQ3XI"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0582a06b0d0000f32dd6a4d200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503188"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5db1368b4db5f32d-ATL]}>
+30/09/20 18:59:48 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 18:59:48 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 18:59:48 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+30/09/20 18:59:48 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@59429fac,{Date=[Wed, 30 Sep 2020 21:59:48 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-aZzt9stcrQtjlW7yV/IVkd4QHpk"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0582a06cff0000f32dd6a66200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503188"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5db1368e6b00f32d-ATL]}>
+30/09/20 18:59:48 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 18:59:48 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+30/09/20 18:59:48 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+30/09/20 18:59:50 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@7a2e0858,{Date=[Wed, 30 Sep 2020 21:59:50 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3A9DWWCPY7xQUaC4ToBUh5R77NnutjCKIB.uCH7a0B0W1U%2F74K2hFYAuWDQMKPdBWCf8S6jecuKRMA; Path=/; HttpOnly]}>
+30/09/20 18:59:50 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+30/09/20 19:03:29 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:03:30 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {id=2}, {Content-Type=application/json}
+30/09/20 19:03:35 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Data@70e3f36f,{Date=[Wed, 30 Sep 2020 22:03:35 GMT], Content-Type=[application/json; charset=utf-8], Transfer-Encoding=[chunked], Connection=[keep-alive], Set-Cookie=[__cfduid=d28ae9f304edaf3c2b331ac7ff1b2bb1c1601503415; expires=Fri, 30-Oct-20 22:03:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"], Via=[1.1 vegur], Cache-Control=[max-age=14400], CF-Cache-Status=[HIT], Age=[229], cf-request-id=[0582a3e2d4000017eb8b1f0200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503415"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Vary=[Accept-Encoding], Server=[cloudflare], CF-RAY=[5db13c17be6317eb-ATL]}>
+30/09/20 19:03:35 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:03:35 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:03:35 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+30/09/20 19:03:35 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@4c03a37,{Date=[Wed, 30 Sep 2020 22:03:35 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-mWjwb41ez3RjgXEbYgRxu8kISDc"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0582a3e468000017eb8b20a200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503416"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5db13c1a4c1717eb-ATL]}>
+30/09/20 19:03:35 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:03:35 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:03:35 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+30/09/20 19:03:36 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@49a71302,{Date=[Wed, 30 Sep 2020 22:03:36 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-QviiU52tiz6xcOV5G7Nsah8RHZo"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0582a3e620000017eb8b228200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503416"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5db13c1d0a4717eb-ATL]}>
+30/09/20 19:03:36 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:03:36 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:03:36 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+30/09/20 19:03:38 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@59429fac,{Date=[Wed, 30 Sep 2020 22:03:38 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-wW2TxYKJeh/dW3Fp7yq1ccWRNjM"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0582a3f114000017eb8b2e7200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503419"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5db13c2e8a0617eb-ATL]}>
+30/09/20 19:03:38 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:03:38 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+30/09/20 19:03:38 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+30/09/20 19:03:40 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@7a2e0858,{Date=[Wed, 30 Sep 2020 22:03:39 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3A5f_SAS1WSkmngtA0vqIp77r2r099K4hz.DS4t6arLSfIN1v%2Ba6YhdNDTPq6CLyPe41nEb%2BPLmpew; Path=/; HttpOnly]}>
+30/09/20 19:03:40 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+30/09/20 19:05:27 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:05:28 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {id=2}, {Content-Type=application/json}
+30/09/20 19:05:32 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Data@49601f82,{Date=[Wed, 30 Sep 2020 22:05:32 GMT], Content-Type=[application/json; charset=utf-8], Transfer-Encoding=[chunked], Connection=[keep-alive], Set-Cookie=[__cfduid=d9545fe3d5af4987966a9e1a1b13003d61601503532; expires=Fri, 30-Oct-20 22:05:32 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"], Via=[1.1 vegur], Cache-Control=[max-age=14400], CF-Cache-Status=[HIT], Age=[346], cf-request-id=[0582a5ac9000001883d3b49200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503532"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Vary=[Accept-Encoding], Server=[cloudflare], CF-RAY=[5db13ef41e711883-ATL]}>
+30/09/20 19:05:32 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:05:32 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:05:32 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+30/09/20 19:05:32 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@2e140e59,{Date=[Wed, 30 Sep 2020 22:05:32 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-7hdTs2X4kvMUthuAB+AnYxm5gac"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0582a5adf900001883d3b5c200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503533"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5db13ef65c121883-ATL]}>
+30/09/20 19:05:32 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:05:32 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:05:32 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+30/09/20 19:05:33 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@5cd61783,{Date=[Wed, 30 Sep 2020 22:05:33 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-Qz65oejcI8alHU6Ywl4t8KTe2oM"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0582a5afaa00001883d3b81200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503533"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5db13ef91afe1883-ATL]}>
+30/09/20 19:05:33 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:05:33 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:05:33 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+30/09/20 19:05:33 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@57aa341b,{Date=[Wed, 30 Sep 2020 22:05:33 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-bmvgFMlFWB7/9CfRJOVJ4rN3k1k"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[0582a5b16900001883d3ba4200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=27&lkg-time=1601503534"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5db13efbd9f21883-ATL]}>
+30/09/20 19:05:33 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:05:33 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+30/09/20 19:05:33 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+30/09/20 19:05:35 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@aac3f4e,{Date=[Wed, 30 Sep 2020 22:05:34 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3A97IHWaprKGjQ25zP5OINDASaBtE0Suqs.Kic5u63biyGAQ45qSvhumFlZCCq6v72iic8LngkPaC8; Path=/; HttpOnly]}>
+30/09/20 19:05:35 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+30/09/20 19:16:54 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+30/09/20 19:16:54 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+30/09/20 19:18:56 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+30/09/20 19:18:57 ERROR JsonUtils:37 - Unrecognized field "Authorization" (class com.crowdar.api.rest.Request), not marked as ignorable (5 known properties: "urlParameters", "body", "endpoint", "headers", "url"])
+ at [Source: (String)"{"Authorization":{"jwt":"eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTAyNTMzLCJleHAiOjE2MDE1ODg5MzN9.65qzMJcIbX0OBYIYUmHvoI3pfhNN5r4o_HjzrDcEWkZRVKRLAiKvEOfHMjqcZK9NKdgk5nJi9kEa54xSvDLb6Q"},"endpoint":"/rest/user/me"}"; line: 1, column: 19] (through reference chain: com.crowdar.api.rest.Request["Authorization"])
+30/09/20 19:18:57 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+30/09/20 19:21:50 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+30/09/20 19:21:51 ERROR JsonUtils:37 - Unrecognized field "Authorization" (class com.crowdar.api.rest.Request), not marked as ignorable (5 known properties: "urlParameters", "body", "endpoint", "headers", "url"])
+ at [Source: (String)"{"Authorization":{"jwt":"eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTAyNTMzLCJleHAiOjE2MDE1ODg5MzN9.65qzMJcIbX0OBYIYUmHvoI3pfhNN5r4o_HjzrDcEWkZRVKRLAiKvEOfHMjqcZK9NKdgk5nJi9kEa54xSvDLb6Q"},"endpoint":"/rest/user/me"}"; line: 1, column: 19] (through reference chain: com.crowdar.api.rest.Request["Authorization"])
+30/09/20 19:21:51 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+30/09/20 19:26:22 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+30/09/20 19:26:57 ERROR JsonUtils:37 - Unrecognized field "Authorization" (class com.crowdar.api.rest.Request), not marked as ignorable (5 known properties: "urlParameters", "body", "endpoint", "headers", "url"])
+ at [Source: (String)"{"Authorization":{"jwt":"eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTAyNTMzLCJleHAiOjE2MDE1ODg5MzN9.65qzMJcIbX0OBYIYUmHvoI3pfhNN5r4o_HjzrDcEWkZRVKRLAiKvEOfHMjqcZK9NKdgk5nJi9kEa54xSvDLb6Q"},"endpoint":"/rest/user/me"}"; line: 1, column: 19] (through reference chain: com.crowdar.api.rest.Request["Authorization"])
+30/09/20 19:26:57 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+30/09/20 21:42:09 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+30/09/20 21:42:09 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+30/09/20 21:48:47 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+30/09/20 21:48:47 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+30/09/20 21:50:42 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+30/09/20 21:50:42 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+30/09/20 22:44:07 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+30/09/20 22:44:07 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+30/09/20 23:17:48 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+30/09/20 23:17:48 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+30/09/20 23:17:48 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+30/09/20 23:17:48 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 12:38:08 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 12:38:08 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 12:38:08 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 12:38:08 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 13:07:37 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 13:07:38 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 13:07:38 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 13:07:38 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 13:53:30 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 13:53:31 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 13:53:31 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 13:53:31 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 13:57:06 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 13:57:06 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 13:59:21 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 13:59:21 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 14:01:30 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 14:01:30 ERROR JsonUtils:37 - Unrecognized field "header" (class com.crowdar.api.rest.Request), not marked as ignorable (5 known properties: "urlParameters", "body", "endpoint", "headers", "url"])
+ at [Source: (String)"{"endpoint":"/rest/user/me","header":{"Authorization":"Bearer {{token}}"}}"; line: 1, column: 39] (through reference chain: com.crowdar.api.rest.Request["header"])
+01/10/20 14:01:30 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 14:21:09 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 14:21:09 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 14:23:03 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 14:23:03 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 14:36:29 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 14:36:30 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 15:11:29 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 15:11:29 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 15:17:21 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 15:17:21 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 16:01:44 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 16:01:44 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 16:01:44 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 16:01:45 ERROR JsonUtils:37 - Unrecognized field "header" (class com.crowdar.api.rest.Request), not marked as ignorable (5 known properties: "urlParameters", "body", "endpoint", "headers", "url"])
+ at [Source: (String)"{"endpoint":"/rest/user/me","header":{"Authorization":"Bearer {{token}}"}}"; line: 1, column: 39] (through reference chain: com.crowdar.api.rest.Request["header"])
+01/10/20 16:01:45 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 16:20:18 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 16:20:18 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 16:20:18 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 16:20:18 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Authorization=Bearer {{token}}}
+01/10/20 16:20:23 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+01/10/20 16:20:23 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.MyUser), not marked as ignorable (6 known properties: "role", "id", "admin", "name", "projectRole", "password"])
+ at [Source: (String)"{"timestamp":"2020-10-01T19:20:23.456+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/me"}"; line: 1, column: 15] (through reference chain: api.model.MyUser["timestamp"])
+01/10/20 16:20:23 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 16:59:12 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 16:59:13 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 16:59:13 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 16:59:13 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 16:59:48 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 16:59:48 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 16:59:48 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 16:59:48 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer {{token}}}
+01/10/20 16:59:50 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+01/10/20 16:59:50 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.MyUser), not marked as ignorable (6 known properties: "role", "id", "admin", "name", "projectRole", "password"])
+ at [Source: (String)"{"timestamp":"2020-10-01T19:59:50.630+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/me"}"; line: 1, column: 15] (through reference chain: api.model.MyUser["timestamp"])
+01/10/20 16:59:50 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 17:00:54 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 17:00:54 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 17:00:54 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 17:00:55 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer {{token}}}
+01/10/20 17:00:57 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+01/10/20 17:00:57 ERROR JsonUtils:37 - Cannot deserialize instance of `java.lang.String` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-10-01T20:00:57.123+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/me"}"; line: 1, column: 1]
+01/10/20 17:00:57 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 17:01:54 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 17:01:54 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 17:01:54 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 17:01:54 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer {{token}}}
+01/10/20 17:01:56 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+01/10/20 17:01:56 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.MyUser), not marked as ignorable (6 known properties: "role", "id", "admin", "name", "projectRole", "password"])
+ at [Source: (String)"{"timestamp":"2020-10-01T20:01:56.662+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/me"}"; line: 1, column: 15] (through reference chain: api.model.MyUser["timestamp"])
+01/10/20 17:01:56 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 17:07:06 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 17:07:06 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----
+01/10/20 17:07:06 INFO  BasicHook:20 - ------ Starting -----obtengo mi informacion de usuario-----
+01/10/20 17:07:06 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer {{token}}}
+01/10/20 17:07:08 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+01/10/20 17:07:08 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.MyUser), not marked as ignorable (6 known properties: "role", "id", "admin", "name", "projectRole", "password"])
+ at [Source: (String)"{"timestamp":"2020-10-01T20:07:07.924+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/me"}"; line: 1, column: 15] (through reference chain: api.model.MyUser["timestamp"])
+01/10/20 17:07:08 INFO  BasicHook:35 - ------ Ending -----obtengo mi informacion de usuario-----
+01/10/20 17:08:53 INFO  BasicHook:20 - ------ Starting -----obtengo el token-----
+01/10/20 17:08:54 INFO  BasicHook:35 - ------ Ending -----obtengo el token-----

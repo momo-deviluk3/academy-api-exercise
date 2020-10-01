@@ -1,7 +1,7 @@
 package api.config;
 
-import services.ResponseHeadersService;
-import services.UserService;
+import services.*;
+
 
 public enum EntityConfiguration {
 
@@ -17,7 +17,21 @@ public enum EntityConfiguration {
         public Class<?> getEntityService() {
             return ResponseHeadersService.class;
         }
-    };
+    },
+    MYUSER{
+        @Override
+        public Class<?> getEntityService() {
+            return MyUserService.class;
+        }
+    },
+    TOKEN {
+        @Override
+        public Class<?> getEntityService() {
+            return CreateTokenService.class;
+        }
+    }
+
+    ;
 
     public abstract Class<?> getEntityService();
 }
