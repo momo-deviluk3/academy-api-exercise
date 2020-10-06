@@ -1,8 +1,8 @@
 {
+  "url": "http://vps2.crowdaronline.com:8083/user/authenticate",
   "headers": {
     "Content-Type": "application/json"
   },
-  "endpoint": "/user/authenticate",
   "urlParameters":{
     "username": "admin",
     "password": "password"

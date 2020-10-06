@@ -9,6 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
 import services.CreateTokenService;
+import services.MyUserService;
 
 import java.lang.reflect.InvocationTargetException;
 
@@ -18,7 +19,7 @@ public class SwaggerToken extends PageSteps {
         EntityConfiguration.valueOf(entity).getEntityService().getMethod(endpoint.toLowerCase(), String.class).invoke("", request);
     }
 
-    @Then("obtengo el '(.*)'")
+    @Then("obtengo el (.*)")
     public void obtengoElTokenStatusCode(int statusCode) {
         int actualStatusCode= APIManager.getLastResponse().getStatusCode();
         Assert.assertEquals(statusCode,actualStatusCode);
@@ -27,6 +28,6 @@ public class SwaggerToken extends PageSteps {
     @And("guardo el token generado")
     public void guardoElTokenGenerado() {
         TokenCreated response= (TokenCreated) APIManager.getLastResponse().getResponse();
-        CreateTokenService.TOKEN.set(response.getJwt());
+        MyUserService.TOKEN.set(response.getJwt());
     }
 }

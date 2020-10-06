@@ -22,7 +22,7 @@ public class MyUser {
     private boolean admin;
 
     @JsonProperty("projectRole")
-    private Map<String,String > projectRole;
+    private Map<String,String> projectRole;
 
     public String getId() {
         return id;

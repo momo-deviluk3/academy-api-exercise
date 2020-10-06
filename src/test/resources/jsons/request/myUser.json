@@ -1,7 +1,6 @@
 {
-  "endpoint": "/rest/user/me",
+  "url": "http://vps2.crowdaronline.com:8083/rest/user/me",
   "headers": {
-    "Content-Type": "application/json",
     "Authorization": "Bearer {{token}}"
   }
 }

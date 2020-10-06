@@ -8,11 +8,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CreateTokenService extends MethodsService {
-    public static final ThreadLocal<String> TOKEN= new ThreadLocal<String>();
+
 
     public static Response post(String jsonName) {
-        Map<String,String> parameters= new HashMap<String,String>();
-        parameters.put("token", TOKEN.get());
-        return get(jsonName, TokenCreated.class, parameters);
+        return post(jsonName, TokenCreated.class);
     }
 }
